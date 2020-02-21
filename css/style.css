@@ -1,0 +1,73 @@
+body{
+	margin: 0
+}
+header{
+	padding: 20px 0;
+}
+.container{
+    width: 1700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{flex-basis: 20%;max-width: 20%;}
+.logo img{
+
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+section{
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+	text-align: center;
+}
+
+.section-one{
+	background-image: url(../images/portfolio-item57.jpg);
+	
+}
+.section-two{
+	background-image: url(../images/portfolio-item58.jpg);
+}
+.section-three{
+	background-image: url(../images/portfolio-item59.jpg);
+}
+.section-four{
+	background-image: url(../images/portfolio-item60.jpg);
+}
+.section-five{
+	background-image: url(../images/portfolio-item61.jpg);
+}
+
+h1{
+    font-size: 60px;
+    color: #fff;
+    background: #00000085;
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+   }
